@@ -1,0 +1,189 @@
+nav ul li a{
+    text-decoration: none;
+    color:inherit;
+}
+nav ul li{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    align-content: center;
+}
+nav ul li{
+    padding: 30px;
+    margin: 4px;
+    list-style-type: none;
+    float: left;
+    background: rgb(0, 0, 0);
+    color: rgb(135, 16, 161);
+    text-transform: uppercase;
+    width: 70px;
+    font-size: 10p;
+    transition: all 1s;
+}
+.clearfix{
+    clear: both;
+}
+nav ul li:first-child{
+    border-radius: 15px 0px 0px 15px;
+}
+nav ul li:last-child{
+    border-radius: 0px 15px 15px 0px;
+}
+nav ul li:hover{
+    background: rgb(0, 0, 0);
+    color:rgb( 135, 16, 161);
+	nav-index: center;
+    text-align: center;
+}
+h1,p{
+	color:  white;
+	background: rgb(8, 150, 55);
+	text-align: center;
+	border-bottom: 10px;
+    background: transparent;
+}
+h2{
+	color: black;
+}
+h5{
+    color:  white;
+    background: black;
+    text-align: center;
+    border-bottom: 25px;
+}
+h6{
+    color:  white;
+    background: transparent;
+    text-align: left;
+    border-bottom: 45px;
+}
+
+h4{
+	color:  white;
+	background: transparent;
+    text-align: center;
+}
+head{
+	color: rgb( 135, 16, 161);
+}
+body{
+	background-color: rgb( 0, 0, 0);
+}
+section{
+	background: rgb( 135, 16, 161);
+}
+#last{
+	backface-visibility: rgb(135, 16, 161);
+}
+/* para no deformar pagina
+*/
+header{
+	border: 1px solid blank;
+	width: auto;
+	margin: auto;
+	background: rgb(135, 16, 161);
+}
+main{
+	border: 1px solid blank;
+	width: auto;
+	margin: auto;
+	background: rgb(8, 150, 55);
+}
+footer{
+
+	border: 1px solid blank;
+	width: auto;
+	margin: 25px;
+	background: black;
+}
+/*/////// estilo cabecera ///////*/
+#imagenlogo{
+    float:left;
+    margin-right: 20px;
+}
+@font-face{
+    font-family: Blacksword;
+    src: url("fuentes/Blacksword.otf");
+}
+h1,h2{
+    font-family: Blacksword;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*/////// estilo cabecera ///////*/
+
+/*/////// carousel ///////*/
+#carousel #contenedorcarrusel .diapositiva img{
+    width: 100%;
+}
+#carousel #contenedorcarrusel .diapositiva{
+    width: 250px;
+    height: 250px;
+    float:left;
+}
+#contenedorcarrusel{
+    with: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#mascara{
+    width: 34000px;
+    height: 800px;
+    animation: mueve 14s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes mueve{
+    0%{left: 0px}
+    20%{left: 0px}
+    25%{left: -800px}
+    45%{left: -800px}
+    50%{left: -1600px}
+    70%{left: -1600px}
+    75%{left: -2400px}
+    100%{left: -2400px}
+    100%{left: -3200px}
+}
+/*/////// carousel ///////*/
+/*/////// block  ///////*/
+#blog article{
+    width: 25%;
+    float: left;
+
+}
+/*paso 2 */
+#blog article img{
+    width: 65%;
+}
+/*paso 5 */
+#blog article .contienearticulo{
+    padding: 10px;
+}
+/*/////// block  ///////*/
+
+/*/////// destacados  ///////*/
+#highlights article{
+    width: 20%;
+    float: left;
+
+}
+/*paso 2 */
+#highlights article img{
+    width: 65%;
+}
+/*paso 5 */
+#highlights article.contienearticulo{
+    padding: 5px;
+}
+/*/////// destacados ///////*/
+table{
+    color:  white;
+    background: rgb(8, 150, 55);
+    text-align: center;
+    border-bottom: 10px;
+    background: black;
+    border: rgb(150, 8, 8);
+}
